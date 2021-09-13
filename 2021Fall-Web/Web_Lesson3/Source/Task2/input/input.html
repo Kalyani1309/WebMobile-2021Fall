@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>RWD</title>
+    <!-- Adding Bootstrap’s compiled CSS and JS to project.-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <!-- This image does not need to be responsive -->
+        <div class="col"><img src="../SampleImages/bean.jpg" height="100"></div>
+        <div class="col">
+            <h1 class="drkGrayText text-right">KALYANI NIKURE</h1>
+            <h3 class="drkGrayText text-right">FRONT-END DEVELOPER</h3>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <!-- Set the image to fill the full size of the window -->
+        <div class="col-12">
+            <img class="img-fluid" src="../SampleImages/image.png" width="100%">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <h2 class="ltgrayText">Featured Work </h2>
+        </div>
+    </div>
+    <div class="row">
+        <!--
+        Each feature needs its own column to keep the image, title and link centered
+        Setting the columns to col-lg-4 makes the links adjust properly without overlap and divides the
+        screen so that at most 3 can be in a line
+         -->
+        <div class="col-lg-4">
+            <img class="img-fluid" src="../SampleImages/app1.png" height="200px" width="100%">
+            <h3 class="drkGrayText text-center">TRAFFIC SIGN RECOGNITION</h3>
+            <p class="text-center"><a class="drkGrayText" href="https://github.com/Kalyani1309/Traffic-Sign-Recognition">
+                https://github.com/Kalyani1309/Traffic-Sign-Recognition</a></p>
+        </div>
+        <div class="col-lg-4">
+            <img class="img-fluid" src="../SampleImages/app2.png" height="200px" width="100%">
+            <h3 class="drkGrayText text-center">WARM UP PROJECT</h3>
+            <p class="text-center"><a class="drkGrayText" href="https://github.com/Kalyani1309/Big-Data-Analytics-and-Applications">
+                https://github.com/Big-data-mgmt/warm-up-project</a></p>
+        </div>
+        <div class="col-lg-4">
+            <img class="img-fluid" src="../SampleImages/app3.png" height="200px" width="100%">
+            <h3 class="drkGrayText text-center">BANKRUPTCY PREDICTION ANALYSIS</h3>
+            <p class="text-center"><a class="drkGrayText" href="https://github.com/Big-data-mgmt/Bankruptcy-Prediction-Analysis">
+                https://github.com/Big-data-mgmt/Bankruptcy-Prediction-Analysis</a></p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

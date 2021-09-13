@@ -1,0 +1,8 @@
+.TransparentButton {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.h1 {
+    font-size: large;
+}

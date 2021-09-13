@@ -1,0 +1,19 @@
+/* Lato is the closest match of the options provided */
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.ltgrayText {
+    font-family: Lato;
+    color: #BCBBBB;
+}
+
+.drkGrayText {
+    font-family: Lato;
+    /* Determined color through picture editor */
+    color: #666656;
+}
+
+hr {
+    /* Mockup shows a hr with these properties */
+    border-width:5px;
+    margin-top: 0px;
+}
