@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Github User Finder</title>
+  <!-- Latest compiled and minified CSS and JavaScript -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+          integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- Custom Styling -->
+  <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1 class="mt-4">Github User Search</h1>
+  <!-- Creates text box and search button to perform search -->
+  <div class="row  mb-3 mt-3">
+    <div class="col-8">
+      <div class="input-group">
+        <input type="text" class="form-control" id="username" placeholder="Enter a github username">
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary" id="search_button">Search</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Display results of the search -->
+  <div id="results"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+/* Styling for user login, name and id */
+.usernames {
+    font-weight: 600;
+    font-size: 16px;
+    padding-right: 4px;
+}
+
+/* Styling for user bio */
+.user_bio {
+    font-size: 14px;
+    color: #24292e;
+}
+
+/* Styling for user location and blog info*/
+.user_info {
+    color: #586069;
+    font-size: 12px;
+    padding-right: 50px;
+}
+
+/* Styling for total user count */
+.total_user_style {
+    font-weight: 600;
+    font-size: 20px;
+}
