@@ -18,7 +18,7 @@ $(document).ready(function () {
     function searchUsers(){
         $.get({url: "https://api.github.com/search/users?q=" + query + "&page=" + page + "&per_page=" + rows,
             type: "GET",
-            headers: { "Authorization": "token d0c7a207b6b8af793a67ec9c01296f6c14bb6249" }})
+            headers: { "Authorization": "token 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" }})
             .done(processData)
             .fail(function() { $("#results").text("Failed Request"); });
     };
@@ -83,7 +83,7 @@ $(document).ready(function () {
                 // Handle user details not returned in the general search
                 $.get({url: "https://api.github.com/users/" + item.login,
                     type: "GET",
-                    headers: { "Authorization": "token d0c7a207b6b8af793a67ec9c01296f6c14bb6249" }})
+                    headers: { "Authorization": "token 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" }})
                     .done(function(data){
                         // Adds user name
                         let username = document.createElement("div");
